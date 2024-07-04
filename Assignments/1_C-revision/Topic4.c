@@ -38,5 +38,4 @@ bool IsBigEndian(void) {
     uint16_t x = 0xFF00;
     uint8_t *lower = (uint8_t *)&x;
     return *lower == 0xFF;
-    int16_t n = 2;
 }
