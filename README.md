@@ -1,6 +1,6 @@
 # OpenLab-Fsoft-Project
 # About the Project
-This is an IoT project based on the Z-Wave Protocol. The project consists of the following components. The project can manage up to 2 end devices, each with up to 2 binary switch endpoints.
+This is an IoT project based on the Z-Wave Protocol. The project can manage up to 2 end devices, each with up to 2 binary switch endpoints. The project consists of the following components:
 - Controller and end nodes with binary switches
 - A gateway using a Raspberry Pi to connect the Z-Wave network with the MQTT network and cloud
 -  A web dashboard to control the network
@@ -14,8 +14,8 @@ The project uses the following hardwares, softwares and tools:
 - [Unify Host SDK](https://github.com/SiliconLabs/UnifySDK)
 - [Node-RED](https://nodered.org/)
 - Optional:
-	- [Silicon Labs UZB-7](https://www.silabs.com/development-tools/wireless/z-wave/efr32zg14-usb-7-z-wave-700-stick-bridge-module?tab=overview) as the Z-Wave Controller
-	- Silicon Labs UZB-3 for debugging Z-Wave messages
+  - [Silicon Labs UZB-7](https://www.silabs.com/development-tools/wireless/z-wave/efr32zg14-usb-7-z-wave-700-stick-bridge-module?tab=overview) as the Z-Wave Controller
+  - Silicon Labs UZB-3 for debugging Z-Wave messages
 
 ## Installing
 ### 1. Flashing the Devices
