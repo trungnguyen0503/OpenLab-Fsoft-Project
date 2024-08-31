@@ -19,7 +19,7 @@ The project uses the following hardwares, softwares and tools:
 
 ## Installing and Running
 ### 1. Flash the Devices
-The SDK used is *Gecko SDK v4.4.3*. The source code is based on the example project *Z-Wave - SoC Switch On/Off*, which provides buttons and Z-Wave Switch Binary command class functionalities to built upon.
+The SDK used is *Gecko SDK v4.4.3*. The source code is based on the example project *Z-Wave - SoC Switch On/Off*, which provides buttons and Z-Wave Switch Binary command class functionalities to build upon.
 
 #### Controller
 If you use UZB-7, there's no need for additional setup.
