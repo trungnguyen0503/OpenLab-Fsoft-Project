@@ -1,0 +1,13 @@
+zw_cc_binaryswitch:
+  binary_switches:
+    - endpoint: 1
+    - endpoint: 2
+
+zw_cc_multi_channel:
+  endpoints:
+    - endpoint: 1
+      generic_type: GENERIC_TYPE_SWITCH_BINARY
+      specific_type: SPECIFIC_TYPE_NOT_USED
+    - endpoint: 2
+      generic_type: GENERIC_TYPE_SWITCH_BINARY
+      specific_type: SPECIFIC_TYPE_NOT_USED
