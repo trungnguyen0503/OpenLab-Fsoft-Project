@@ -1,5 +1,7 @@
 # Switch On/Off
 
+This project is edited to add a second endpoint and provides multi channel capabilities.
+
 The Z-Wave certified Switch On/Off application shows a switch implementation, that turns on any device that is connected to power. Examples include lights, appliances, etc.
 
 | <!-- -->                | <!-- -->                                     |
