@@ -50,13 +50,13 @@ If you use UZB-7, at the uic-zpc configuration part of the setup, set your seria
 
 You can reconfigure uic-zpc by changing the config file */etc/uic/uic.cfg*, or running package reconfigure:
 ```
-sudo dpkg-reconfigure uic-zpc
+$ sudo dpkg-reconfigure uic-zpc
 ```
 Reset *uic-zpc* to register the controller:
 ```
 $ sudo systemctl restart uic-zpc
 ```
-Check if everything is working by going to the component tester on http:[Your Raspberry Pi IP]:3080. You should see one controller device connected.
+Check if everything is working by going to the component tester on http://[Your Raspberry Pi IP]:3080. You should see one controller device connected.
 
 #### Mosquitto Setup
 For your Node-RED instance to be able to connect to the MQTT broker, you have to setup an user, or allow anonymous connection. For simplicity, allow anonymous connection by adding or modifying this line of the config file */etc/mosquitto/mosquitto.conf*:
@@ -65,5 +65,6 @@ allow_anonymous true
 ```
 
 ### 3. Deploy the Node-RED application
+Open the Node-RED interface at http://[Your Raspberry Pi IP]:1880 and import the *flows.json* provided in the repo then click *Deploy*
 
 ## Modifications in the Source Code
